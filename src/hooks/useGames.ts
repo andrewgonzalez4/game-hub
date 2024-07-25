@@ -12,6 +12,7 @@ export interface Platform{
 export interface Game{
     id: number;
     name: string,
+    rating: number,
     background_image: string;
     parent_platforms: {platform: Platform}[];
 }
