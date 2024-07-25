@@ -3,7 +3,7 @@ import { Card, CardBody, Skeleton, SkeletonCircle, SkeletonText } from '@chakra-
 
 const LoadingSkeleton = () => {
   return (
-    <Card width={'300px'} borderRadius={10} overflow={'hidden'}>
+    <Card >
         <Skeleton height={'200px'} />
         <CardBody>
             <SkeletonText/>
