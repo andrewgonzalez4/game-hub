@@ -5,6 +5,7 @@ export interface Platform{
     name: string;
     slug: string;
     platforms: Platform[];
+    background_image: string;
 }
 
 const usePlatforms = () =>{
